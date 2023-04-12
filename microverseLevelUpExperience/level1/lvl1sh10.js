@@ -8,7 +8,7 @@ let fullname = myname + " " + lastname
 let str = "And I have";
 
 let appels = 12 ;
-
-let end = 'apples';
+appels += 5;
+let end = 'appels';
 
 console.log(greeting, fullname, str, appels, end)
