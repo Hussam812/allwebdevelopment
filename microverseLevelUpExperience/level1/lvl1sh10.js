@@ -2,7 +2,8 @@ let greeting = "Hello my name is";
 
 let myname = 'Hussam';
 
-myname = 'Mohamed'
+myname = 'Mohamed';
+myname = myname + ' Hussam'  
 
 let str = "And I have";
 
