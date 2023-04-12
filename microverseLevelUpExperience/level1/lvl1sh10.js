@@ -2,13 +2,13 @@ let greeting = "Hello my name is";
 
 let myname = 'Hussam';
 
-myname = 'Mohamed';
-myname = myname + ' Hussam'  
+let lastname = "Hosni";
 
+let fullname = myname + " " + lastname
 let str = "And I have";
 
 let appels = 12 ;
 
 let end = 'apples';
 
-console.log(greeting, myname, str, appels, end)
+console.log(greeting, fullname, str, appels, end)
