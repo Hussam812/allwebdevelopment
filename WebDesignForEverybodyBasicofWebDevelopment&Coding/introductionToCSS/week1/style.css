@@ -20,14 +20,14 @@ h2{
     background-color: #00b7ea;
 }
 
-summary{
-	font-style:normal;
-}
 
 details{
 	font-style: italic;
 }
 
+summary{
+	font-style:normal;
+}
 
 footer{
     background-color: #666666;
