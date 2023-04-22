@@ -1,0 +1,18 @@
+li{
+    margin: 5px;
+    list-style-type: square;
+}
+a{
+    padding-left: 22px;
+    text-decoration: none;
+}
+a[href$=".org"]{
+    background: #FFFF00;
+}
+
+a[href$=".edu"]{
+    background: #FF00FF;
+}
+a[href$=".gov"]{
+    background-color: #00FF00;
+}
