@@ -1,0 +1,24 @@
+div{
+    background:#00f;
+   
+    color: #fff;
+    
+    width:40%;
+    border: 5px solid #000;
+    margin: 15px;
+
+    
+    display: inline-block;
+    float: left;
+
+
+}
+h2{
+    text-align: center;
+    font-size:200%;
+}
+section{
+    background: #f00;
+    height: 250px;
+    clear: both;
+}

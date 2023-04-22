@@ -1,0 +1,51 @@
+body{
+    margin:4%;
+    background: #B3B3B3;
+    font-size: 150%;
+}
+
+
+header{
+    background: #666;
+    text-align: center;
+    padding: 1%;
+}
+
+h1{
+   
+    font-size: 150%;
+    color: #fff;
+}
+h2{
+    color: #666666;
+    background: #00B7ea;
+    height: 28px;
+    text-align: center;
+    padding: 14px;
+   
+}
+section{
+    width: 30%;
+    display: inline;
+    float: left;
+    font-size: 75%;
+    margin: 0 0 0 2%;
+
+}
+summary{
+    font-style: normal;
+}
+details{
+    font-style: italic;
+}
+footer{
+    clear: both;
+    background-color: #666666;
+}
+img{
+    width: 125px;
+}
+
+progress{
+    width: 70%;
+}
