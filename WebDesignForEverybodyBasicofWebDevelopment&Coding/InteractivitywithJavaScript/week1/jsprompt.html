@@ -27,7 +27,10 @@
             document.write(name);
             document.write('<h1>'+ name +"<h1>");
                 document.write(document.baseURI + "<br>");
-                document.write(document.title+"<br>")
+                document.write(document.title+"<br>");
+                var pars = document.getElementsByTagName('p')
+                document.write(pars+"<br>");
+                document.write(pars.length);
         </script>
     </body>
     
