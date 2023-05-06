@@ -1,0 +1,23 @@
+.closed{
+    display: none;
+}
+
+.open{
+    display: block;
+
+}
+
+button{
+    background-color: #00CCEE;
+    width: 150px;
+}
+button:active{
+    border:2px solid  #cc0;
+    width: 250px;
+
+}
+
+#demo{
+    background-color: #777 ;
+    
+}
