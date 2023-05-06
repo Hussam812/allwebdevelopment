@@ -11,7 +11,7 @@ button{
     background-color: #00CCEE;
     width: 150px;
 }
-button:active{
+button:{
     border:2px solid  #cc0;
     width: 250px;
 
