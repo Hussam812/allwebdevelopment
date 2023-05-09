@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparing Two Inputs</title>
+</head>
+<body>
+    <form>
+        <label>Preferred email address:</label>
+        <input type="email" id="email_addr" name="email" value="me@me.com" required><br>
+
+        <label>Repeat email address:
+            <input type="email" id="email_repeat" name="email2"required onchange="return check();">
+        </label><br>
+
+        <input type="submit" value="Confirm Emails!" onclick="return check();">
+    
+    </form>
+
+    <script>
+        function check(){
+            email1= document.getElementById('email_addr');
+            email2 = document.getElementById('email_repeat');
+            if (email1.value != email2.value){
+                alert("The two emails must match!");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
