@@ -15,9 +15,7 @@
         console.log(text2);
 
 
-        var reallylocation = text1.search('really');
-        var specialword = text1.substr(reallylocation, 6);
-        specialword = specialword.toUpperCase();
+        var specialword = text1.substr(text1.search('really'), 6).toUpperCase();
         var newString = text1.replace('really', specialword);
         console.log(newString); 
 
