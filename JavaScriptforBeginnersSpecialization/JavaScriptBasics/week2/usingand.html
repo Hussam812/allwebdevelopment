@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using &&</title>
+</head>
+<body>
+    <h1> Using &&</h1>
+
+    <script>
+
+        var goodMood = true;
+        var gotsleep = true;
+        var gotBrakfast = true;
+        var gotlunch = true;
+        var gotDinner = false;
+
+        if(goodMood && gotsleep){
+            console.log("Today is a good day");
+        }else{
+            console.log("I am grumpy!")
+        }
+        // Using ||
+
+        if(gotBrakfast || gotlunch || gotDinner){
+            console.log("I am not Starving");
+        }else{
+            console.log("STARVING!");
+        }
+    </script>
+    
+</body>
+</html>
