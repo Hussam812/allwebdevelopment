@@ -58,17 +58,12 @@
         //console.log(returnSum(2, 3));
 
         //console.log(Math.random());
+        var foods = ['cheese', 'chicken', 'grapes', 'hamburgers'];
         function randomInt(min, max){
-            var numOfValues = max - min + 1;
-            var randomNum = Math.random();
-            var randomVal = randomNum * numOfValues;
-            var roundedRandomVal = Math.floor(randomVal);
-            var finalNum = min + roundedRandomVal;
-            console.log(finalNum);
-
-
+          
+            return Math.floor((max - min + 1)*Math.random())+ min;
         }
-        randomInt(5, 10);
+        console.log(foods[randomInt(0, foods.length -1)]);
     </script>
 </body>
 </html>
