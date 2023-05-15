@@ -8,16 +8,16 @@
 </head>
 <body>
     <h1>DOM Examoples</h1>
-    <p>Here is a paragraph</p>
+    <p class="special">Here is a paragraph</p>
     <p>Here is another paragraph</p>
-    <p>Here is one more paragraph</p>
+    <p class="special">Here is one more paragraph</p>
     <script>
-        var ps = document.getElementsByTagName("p");
+        var myClass = document.getElementsByClassName('special');
 
-        for (var i = 0; i < ps.length; i++){
-            ps[i].style.color = "red";
-            alert(`showing Paragraph ${i}`)
+        for (var i = 0; i <myClass.length; i++ ){
+            myClass[i].style.color = "red";
         }
+
     </script>
     
 </body>
