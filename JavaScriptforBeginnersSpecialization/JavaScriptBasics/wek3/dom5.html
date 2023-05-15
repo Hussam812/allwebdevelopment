@@ -15,8 +15,11 @@
     </div>
    
     <script>
-        var myText = document.querySelector('#special .someclass');
-        myText.style.color = 'red';
+        var myText = document.querySelectorAll('#special .someclass');
+
+        for (var i = 0; i < myText.length; i++){
+            myText[i].style.color = 'red';
+        }
 
     </script>
     
