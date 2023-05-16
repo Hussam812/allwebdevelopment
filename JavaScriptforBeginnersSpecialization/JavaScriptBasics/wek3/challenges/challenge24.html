@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Event Challenges: Challenge 24</title>
+</head>
+<body>
+    <h1>JavaScript Event Challenges: Challenge 24</h1>
+    <div>
+        <p>Here is the first paragraph of text</p>
+    </div>
+    <button>Add a paragraph</button>
+
+    <script>
+        var btn = document.querySelector('button');
+        var myDiv = document.querySelector('div');
+        var p = document.createElement('p');
+        var ptext = document.createTextNode('A new paragraph');
+        p.appendChild(ptext)
+        btn.onclick = function(){
+
+            myDiv.appendChild(p)
+            
+            //evt.target.style.background ='green';
+        };
+    </script>
+</body>
+</html>
