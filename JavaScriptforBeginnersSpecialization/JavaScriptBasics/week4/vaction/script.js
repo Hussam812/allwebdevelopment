@@ -40,7 +40,7 @@
         var img = document.createElement('img');
         img.setAttribute('alt', name);
     
-        var constantPhotoUrl = 'images/signpost.jpg';
+        var constantPhotoUrl = 'imgs/signpost.jpg';
     
         if (photoURL.length === 0) {
             img.setAttribute('src', constantPhotoUrl);
