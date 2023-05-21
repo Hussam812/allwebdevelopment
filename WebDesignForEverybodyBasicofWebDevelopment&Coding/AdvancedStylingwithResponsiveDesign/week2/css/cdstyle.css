@@ -53,7 +53,7 @@ nav a{
         padding-left:  5px;
     }
     section{
-        display: inline-block;
+        display: inline;
         width: 70%;
         height: 100vh;
         overflow: auto;
